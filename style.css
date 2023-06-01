@@ -497,7 +497,7 @@ footer {
 footer a {
 	text-decoration: none; /*(nullifies underline)*/
 	color: darkslategrey;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Acme', sans-serif;
 }
 /*(link color when moused over)*/
 footer a:hover {

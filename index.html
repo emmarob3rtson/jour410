@@ -106,6 +106,18 @@ $('#slider').cycle({});
 
 <head>
     <link rel="icon" type="image/x-icon" sizes="16x16" href="img/fav/favicon-16x16.png">
+	
+  <style>
+    .gif-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .gif-container img {
+      width: 30%; /* Adjust the width as per your preference */
+    }
+  </style>
+	
 </head>
 
 <body>
@@ -282,17 +294,18 @@ data-cycle-speed="200">
 <audio id="audio_3">
 	<source src="audio/3.mp3" type="audio/mpeg" />
 </audio>
-        
-<img src="img/rollover/1.gif" class="rollover" alt="description" onMouseOver="this.src='img/rollover/1.jpg'" onMouseOut="this.src='img/rollover/1.gif'" onClick="document.getElementById('audio_1').play(); return false;" onDblClick="document.getElementById('audio_1').pause(); return false;">
- /&gt; 
+
+ <div class="gif-container">
+	<img src="img/rollover/1.gif" class="rollover" alt="description" onMouseOver="this.src='img/rollover/1.jpg'" onMouseOut="this.src='img/rollover/1.gif'" onClick="document.getElementById('audio_1').play(); return false;" onDblClick="document.getElementById('audio_1').pause(); return false;">
+ 	/&gt; 
             
-<img src="img/rollover/2.gif" class="rollover" alt="description" onMouseOver="this.src='img/rollover/2.jpg'" onMouseOut="this.src='img/rollover/2.gif'" onClick="document.getElementById('audio_2').play(); return false;" onDblClick="document.getElementById('audio_2').pause(); return false;">
- /&gt;
+	<img src="img/rollover/2.gif" class="rollover" alt="description" onMouseOver="this.src='img/rollover/2.jpg'" onMouseOut="this.src='img/rollover/2.gif'" onClick="document.getElementById('audio_2').play(); return false;" onDblClick="document.getElementById('audio_2').pause(); return false;">
+ 	/&gt;
             
-<img src="img/rollover/3.gif" class="rollover" alt="description" onMouseOver="this.src='img/rollover/3.jpg'" onMouseOut="this.src='img/rollover/3.gif'" onClick="document.getElementById('audio_3').play(); return false;" onDblClick="document.getElementById('audio_3').pause(); return false;">
-/&gt;
-	</div>
-</div>
+	<img src="img/rollover/3.gif" class="rollover" alt="description" onMouseOver="this.src='img/rollover/3.jpg'" onMouseOut="this.src='img/rollover/3.gif'" onClick="document.getElementById('audio_3').play(); return false;" onDblClick="document.getElementById('audio_3').pause(); return false;">
+	/&gt;
+  </div>
+		
 <p class="tab"><a href="#vid">Finding community</a></p>		
 </article>
 </div>

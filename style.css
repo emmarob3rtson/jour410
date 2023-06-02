@@ -276,7 +276,7 @@ a.text:hover, a.text:active {
   margin-right: px;
   font-family: 'Acme', sans-serif;  
   font-weight: bolder;
-  font-size: 135px;
+  font-size: 125px;
   font-style: italics; 
   color: darkslategray;
   text-shadow: -2px -2px 0 lightgoldenrodyellow, 2px -2px 0 lightgoldenrodyellow, -2px 2px 0 lightgoldenrodyellow, 2px 2px 0 lightgoldenrodyellow;

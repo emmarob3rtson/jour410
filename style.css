@@ -505,12 +505,6 @@ footer a:hover {
 }
 
 /*----------------AUDIO BOARD-----------------*/
-
-.table {
-	position: relative;
-	text-align: center;
-	color: lightgoldenrodyellow;
-	font-size: 0vw;
     
 }
 
@@ -526,27 +520,6 @@ footer a:hover {
 	cursor: pointer;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-/*----------------audio soundboard styles-----------------*/
-
-.image2 {
-	cursor: pointer;
-}
-
-.table {
-	position: relative;
-	text-align: center;
-	color: greenyellow;
-	font-size: 0vw;
-}
-
-.trip {text-align:center;}
-
-.trip img {
-  display:inline-block;
-  width:30%;
-  margin:0 1% 0 1%;
 }
 
 /*--------------background colors----------*/

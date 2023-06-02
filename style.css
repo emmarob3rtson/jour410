@@ -370,8 +370,8 @@ div {
     display: block;
 }
 body {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    color: slategrey;
+    font-family: 'Old Standard', sans-serif;
     font-weight: 300;
 }
 user agent stylesheet

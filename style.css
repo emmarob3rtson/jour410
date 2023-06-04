@@ -475,16 +475,13 @@ filter: alpha(opacity=70)
 }
 
 .image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 300px; /* Adjust the height as per your requirement */
 }
 
 .image-container img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
 }
 
 /* captions below slideshow*/
@@ -496,7 +493,7 @@ filter: alpha(opacity=70)
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 

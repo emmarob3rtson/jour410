@@ -506,9 +506,9 @@ footer a:hover {
 
 /*----------------AUDIO BOARD-----------------*/
 
-.trip {text-align:center;
-  padding-bottom: 10px;
-  }
+ }
+
+.trip {text-align:center;}
 
 .trip img{
   display:inline-block;

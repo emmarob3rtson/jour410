@@ -462,6 +462,12 @@ opacity: 1;
 filter: alpha(opacity=70)
 }
 
+/* image size adjustment*/
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 
 /* captions below slideshow*/
 #alt-caption {

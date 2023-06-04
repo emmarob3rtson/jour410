@@ -475,9 +475,8 @@ filter: alpha(opacity=70)
 }
 
 .image-container img {
-  height: 100%;
-  width: auto;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 /* captions below slideshow*/

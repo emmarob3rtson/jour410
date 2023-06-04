@@ -463,18 +463,25 @@ filter: alpha(opacity=70)
 }
 
 /* image size adjustment*/
-.image {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
 .cycle-caption {
+  position: absolute;
   bottom: 0;
-  top: auto;
-  padding: 10px;
+  left: 0;
+  right: 0;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
+  font-size: 18px;
+}
+
+.image-container {
+  height: 300px; /* Adjust the height as per your requirement */
+}
+
+.image-container img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
 }
 
 /* captions below slideshow*/
